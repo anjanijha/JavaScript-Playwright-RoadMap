@@ -35,7 +35,7 @@ let company = "Capco";
 // 3.const
 
 const country = "India";
-    console.log(country)
+    console.log(country);
 
 
 // 3. Data Type
@@ -82,12 +82,12 @@ console.log(`Modulus : ${a % b}`);
 
 const language = "Playwright";
 
-console.log(`Length : ${language.length}`);; //10
+console.log(`Length : ${language.length}`); //10
 console.log(`Uppercase : ${language.toUpperCase()}`); //PLAYWRIGHT
 console.log(`Lowercase : ${language.toLowerCase()}`);//playwright
-console.log(language.includes("Play")); //true
-console.log(language.startsWith("Play"));//true
-console.log(language.endsWith("ght"));//true
+console.log(`Contains 'Play' : ${language.includes("Play")}`); //true
+console.log(`Starts With 'Play' : ${language.startsWith("Play")}`); //true
+console.log(`Ends With 'ght' : ${language.endsWith("ght")}`); //true
 
 //8.Arrays 
 const languages = [
@@ -108,9 +108,9 @@ const employee = {
     experience: 8
 };
 
-console.log(employee.name);
-console.log(employee.company);
-console.log(employee.experience);
+console.log(`Name       : ${employee.name}`);
+console.log(`Company    : ${employee.company}`);
+console.log(`Experience : ${employee.experience}`);
 
 //10. Functions
 function greetEmp(name) {
