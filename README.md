@@ -1,18 +1,18 @@
-# 🚀 JavaScript • TypeScript • Playwright Roadmap
+# 🚀 JavaScript • Playwright Roadmap
 
-A structured learning roadmap to master **JavaScript**, **TypeScript**, and **Playwright** for **Senior SDET / QA Automation Engineer** interviews.
+A hands-on learning repository documenting my journey to master **JavaScript**, **TypeScript**, and **Playwright** for **Senior SDET / QA Automation Engineer** interviews.
 
-This repository contains theory, hands-on coding exercises, mini projects, and interview preparation.
+This repository contains theory, coding examples, practice exercises, mini projects, and interview preparation.
 
 ---
 
-# 🎯 Goal
+# 🎯 Objective
 
-Become proficient in:
+Build strong expertise in:
 
 - JavaScript (ES6+)
 - TypeScript
-- Playwright Automation
+- Playwright
 - Page Object Model (POM)
 - API Testing
 - Automation Framework Design
@@ -20,21 +20,46 @@ Become proficient in:
 
 ---
 
-# 📚 Learning Roadmap
+# 📂 Repository Structure
 
-## ✅ Day 1 – JavaScript Fundamentals
+```
+JavaScript-Playwright-RoadMap
+│
+├── javascript
+│   ├── Day01
+│   │   ├── javascript.js
+│   │   ├── condition_loops.js
+│   │   ├── practice.js
+│   │   └── practice_part2.js
+│   │
+│   └── Day02
+│       ├── classes.js
+│       ├── practice.js
+│       ├── mini_project.js
+│       └── advanced_class.js
+│
+├── README.md
+└── LICENSE
+```
 
-### Theory
+---
+
+# 📚 Learning Progress
+
+## ✅ JavaScript Day 1 – Fundamentals
+
+### Concepts Covered
 
 - Variables (`var`, `let`, `const`)
 - Data Types
+- Console Output
+- Template Literals
 - Operators
-- Strings
+- String Methods
 - Arrays
 - Objects
 - Functions
 - Arrow Functions
-- Template Literals
 
 ### Conditions & Loops
 
@@ -42,34 +67,37 @@ Become proficient in:
 - if...else
 - else if
 - switch
+- Ternary Operator
 - for
 - while
 - do...while
 - for...of
 - forEach
+- for...in
 
 ### Practice
 
 - Variables
 - Calculator
+- String Operations
 - Arrays
 - Objects
 - Functions
 - Browser Information Mini Project
 - Employee Bonus Calculator
 
-Status: ✅ Completed
+**Status:** ✅ Completed
 
 ---
 
-## ✅ Day 2 – Object-Oriented JavaScript
+## ✅ JavaScript Day 2 – Object-Oriented Programming
 
-### Theory
+### Concepts Covered
 
 - Classes
 - Objects
 - Constructors
-- this keyword
+- `this` Keyword
 - Methods
 - Getters
 - Setters
@@ -78,65 +106,41 @@ Status: ✅ Completed
 ### Practice
 
 - Employee Class
+- Multiple Objects
 - Employee Management System
-- Browser Information Project
+- Getter & Setter Examples
+- Static Method Examples
 
-Status: ✅ Completed
+**Status:** ✅ Completed
 
 ---
 
-## 🚧 Upcoming Topics
+# 🚧 Upcoming Roadmap
 
-### Day 3
+## JavaScript Day 3
 
-- Inheritance
-- super
+- Inheritance (`extends`)
+- `super`
 - Method Overriding
 - Polymorphism
-- Modules (`export` / `import`)
+- Modules (`import` / `export`)
 
 ---
 
-### Day 4
+## TypeScript
 
-- Advanced Arrays
-- Array Methods
-- map()
-- filter()
-- reduce()
-- find()
-- some()
-- every()
-
----
-
-### Day 5
-
-- Promises
-- Async / Await
-- Error Handling
-- Fetch API
-
----
-
-### Day 6
-
-- TypeScript Basics
-
----
-
-### Day 7
-
+- Basic Types
 - Interfaces
-- Types
 - Enums
 - Generics
+- Classes in TypeScript
+- Utility Types
 
 ---
 
-### Day 8+
+## Playwright
 
-- Playwright Installation
+- Installation
 - Playwright Architecture
 - Browser
 - BrowserContext
@@ -151,48 +155,20 @@ Status: ✅ Completed
 
 ---
 
-# 📂 Repository Structure
-
-```
-JavaScript-Playwright-Roadmap
-│
-├── day1
-│   ├── javascript.js
-│   ├── condition_loops.js
-│   ├── practice.js
-│   └── practice_part2.js
-│
-├── day2
-│   ├── classes.js
-│   ├── practice.js
-│   ├── mini_project.js
-│   └── advanced_class.js
-│
-├── day3
-│
-├── typescript
-│
-├── playwright
-│
-└── README.md
-```
-
----
-
 # 🛠 Technologies
 
 - JavaScript (ES6+)
-- TypeScript
-- Playwright
+- TypeScript *(Upcoming)*
+- Playwright *(Upcoming)*
 - Node.js
 - Git
 - GitHub
 
 ---
 
-# 🎯 Learning Approach
+# 🎯 Learning Methodology
 
-Each topic follows the same structure:
+Every topic in this repository follows the same structure:
 
 - 📖 Theory
 - 💻 Coding Examples
@@ -200,12 +176,14 @@ Each topic follows the same structure:
 - 🚀 Mini Project
 - 🎤 Interview Questions
 
+This approach helps reinforce concepts through practical implementation rather than memorization.
+
 ---
 
-# 📌 Progress Tracker
+# 📈 Progress Tracker
 
 | Topic | Status |
-|--------|:------:|
+|-------------------------------|:------:|
 | JavaScript Fundamentals | ✅ |
 | Conditions & Loops | ✅ |
 | Classes & Objects | ✅ |
@@ -215,16 +193,20 @@ Each topic follows the same structure:
 | Modules | ⏳ |
 | TypeScript | ⏳ |
 | Playwright | ⏳ |
-| Framework Design | ⏳ |
+| Framework Development | ⏳ |
 
 ---
 
-# 🎯 Purpose
+# 💼 Purpose
 
-This repository documents my preparation for **Senior SDET / QA Automation Engineer** roles by building a strong foundation in JavaScript, TypeScript, and Playwright through consistent daily practice.
+This repository documents my continuous learning journey toward becoming a **Senior SDET / QA Automation Engineer**, focusing on modern JavaScript, TypeScript, and Playwright through hands-on coding and real-world automation concepts.
 
 ---
 
-## ⭐ If you find this repository useful, feel free to star it!
+# ⭐ Connect With Me
 
-Happy Learning! 🚀
+**GitHub:** https://github.com/anjanijha
+
+If you find this repository useful, feel free to ⭐ star it.
+
+Happy Coding! 🚀
