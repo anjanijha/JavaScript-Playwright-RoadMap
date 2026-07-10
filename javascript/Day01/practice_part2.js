@@ -1,12 +1,8 @@
-//Exercise 1 : Print "Hello JavaScript" 5 times using for loop
-
 function printJavaScript() {
     for (let i = 0; i < 5; i++) {
         console.log(`Iteration ${i + 1}: Hello JavaScript`);
     }
 }
-
-//Exercise 2 : Print 1-10 using while loop
 
 function printWhile() {
     let num = 1;
@@ -16,8 +12,6 @@ function printWhile() {
     }
 }
 
-//Exercise 3 : Print Even numbers between 1–20
-
 function printEven() {
     for (let i = 1; i <= 20; i++) {
         if (i % 2 === 0) {
@@ -25,9 +19,6 @@ function printEven() {
         }
     }
 }
-
-
-//Exercise 4 : Use if...else Check Age >=18
 
 function printAge() {
     const age = 20;
@@ -38,8 +29,6 @@ function printAge() {
         console.log("Not eligible to vote");
     }
 }
-
-//Exercise 5 : Use switch print weekday
 
 function printWeekday() {
     const week = 2;
@@ -79,8 +68,6 @@ function printWeekday() {
     }
 }
 
-//Exercise 6 : Print all languages using for...of
-
 function printUsingForOf() {
     const languages = [
         "Java",
@@ -93,8 +80,6 @@ function printUsingForOf() {
     }
 }
 
-//Exercise 7 : Print all languages using forEach()
-
 function printUsingForEach() {
     const languages = [
         "Java",
@@ -106,8 +91,6 @@ function printUsingForEach() {
         console.log(`Language : ${language}`);
     });
 }
-
-// Mini Project Employee Bonus Calculator
 
 function bonusCalculator() {
     const employee = {
@@ -133,12 +116,19 @@ function bonusCalculator() {
     console.log(`Bonus          : ${bonus}`);
 }
 function main() {
+    console.log("\n===== Exercise 1 : Print 'Hello JavaScript' 5 times using for loop =====");
     printJavaScript();
+    console.log("\n=====Exercise 2 : Print 1-10 using while loop =====");
     printWhile();
+    console.log("\n=====Exercise 3 : Print Even numbers between 1–20 =====");
     printEven();
+    console.log("\n=====Exercise 4 : Use if...else Check Age >=18=====");
     printAge();
+    console.log("\n=====Exercise 5 : Use switch print weekday=====");
     printWeekday();
+    console.log("\n=====Exercise 6 : Print all languages using for...of=====");
     printUsingForOf();
+    console.log("\n=====Exercise 7 : Print all languages using forEach()=====");
     printUsingForEach();
     bonusCalculator();
 }
