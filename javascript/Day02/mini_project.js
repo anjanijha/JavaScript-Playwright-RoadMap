@@ -43,8 +43,9 @@ class Employee{
         console.log("===============================");
         console.log(`Name       : ${this.name}`);
         console.log(`Company    : ${this.company}`);
-        console.log(`Experience : ${this.experience}`);
+        console.log(`Experience : ${this.experience} years`);
         console.log(`Salary     : ${this.salary}`);
+        console.log()
     }
 }
 const employee1 = new Employee("Anjani","Capco",8,2400000);

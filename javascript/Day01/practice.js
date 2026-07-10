@@ -72,31 +72,6 @@ const greetWithArrow = (name) => {
     console.log(`Hello ${name}`);
 };
 
-function miniProject() {
-    console.log("===============================");
-    console.log("Browser Information");
-    console.log("===============================");
-
-    const browser = {
-        name: "Chrome",
-        version: "138",
-        headless: true
-    };
-
-    let status;
-
-    if (browser.headless) {
-        status = "Browser Ready in headless mode";
-    } else {
-        status = "Browser Ready in headed mode";
-    }
-
-    console.log(`Name       : ${browser.name}`);
-    console.log(`Version    : ${browser.version}`);
-    console.log(`Headless   : ${browser.headless}`);
-    console.log(`Status     : ${status}`);
-}
-
 function main() {
     console.log("\n===== Exercise 1 - Print Your Information =====");
     printInfo();
@@ -113,7 +88,7 @@ function main() {
     console.log("\n===== Exercise 7 - Arrow Function=====");
     greetWithArrow("Anjani");
     console.log("\n===== Mini Project - Browser Launcher =====");
-    miniProject();
+
 }
 
 main();

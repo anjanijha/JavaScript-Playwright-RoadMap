@@ -92,29 +92,7 @@ function printUsingForEach() {
     });
 }
 
-function bonusCalculator() {
-    const employee = {
-        name: "Anjani",
-        experience: 8,
-        salary: 2400000
-    };
-    let bonus;
-    console.log("===============================");
-    console.log("Employee Bonus Calculator");
-    console.log("===============================");
-    console.log(`Employee       : ${employee.name}`);
-    console.log(`Experience     : ${employee.experience}`);
-    console.log(`Salary         : ${employee.salary}`);
-    if (employee.experience >= 10) {
-        bonus = employee.salary * 0.20;
-    } else if (employee.experience >= 5) {
-        bonus = employee.salary * 0.10;
-    }
-    else {
-        bonus = employee.salary * 0.05;
-    }
-    console.log(`Bonus          : ${bonus}`);
-}
+
 function main() {
     console.log("\n===== Exercise 1 : Print 'Hello JavaScript' 5 times using for loop =====");
     printJavaScript();
@@ -130,7 +108,6 @@ function main() {
     printUsingForOf();
     console.log("\n=====Exercise 7 : Print all languages using forEach()=====");
     printUsingForEach();
-    bonusCalculator();
 }
 
 main();
