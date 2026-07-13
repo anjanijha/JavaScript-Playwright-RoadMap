@@ -1,3 +1,32 @@
+/*
+Mini Project: 
+
+Create
+
+class Employee {
+
+    constructor(name, company, salary) {
+
+    }
+
+}
+
+Requirements:
+
+1.Getter Return Employee Name
+2.Setter Allow changing salary if 
+Reject
+salary < 0
+
+3.Static Method
+Employee.companyPolicy();
+
+Output:
+Employees must work 8 hours/day.
+
+*/
+
+
 class Employee {
 
     constructor(name, company, salary) {

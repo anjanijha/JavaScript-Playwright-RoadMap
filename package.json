@@ -1,0 +1,21 @@
+{
+  "name": "javascript-playwright-roadmap",
+  "version": "1.0.0",
+  "description": "A hands-on learning repository documenting my journey to master **JavaScript**, **TypeScript**, and **Playwright** for **Senior SDET / QA Automation Engineer** interviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjanijha/JavaScript-Playwright-RoadMap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/anjanijha/JavaScript-Playwright-RoadMap/issues"
+  },
+  "homepage": "https://github.com/anjanijha/JavaScript-Playwright-RoadMap#readme"
+}
