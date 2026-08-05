@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/anjanijha/JavaScript-Playwright-RoadMap/issues"
   },
-  "homepage": "https://github.com/anjanijha/JavaScript-Playwright-RoadMap#readme"
+  "homepage": "https://github.com/anjanijha/JavaScript-Playwright-RoadMap#readme",
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
 }

@@ -10,8 +10,9 @@
     "declarationMap": false,
     "sourceMap": false,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"]
   },
-  "include": ["Day*/**/*.ts"],
+  "include": ["Day*/**/*.ts", "ProblemSolving/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

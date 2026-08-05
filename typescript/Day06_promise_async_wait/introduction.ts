@@ -232,3 +232,38 @@ async function main3() {
 }
 
 //Real Playwright Example Everything uses "await" because Playwright APIs return Promises.
+
+/*
+test("Login Test", async ({ page }) => {
+
+    await page.goto("https://demo.com");
+
+    await page.fill("#username", "admin");
+
+    await page.fill("#password", "pass");
+
+    await page.click("#login");
+
+});
+
+
+//Another Real Example
+class LoginPage {
+
+    constructor(private page: Page) {}
+
+    async login(
+        username: string,
+        password: string
+    ): Promise<void> {
+
+        await this.page.fill("#username", username);
+
+        await this.page.fill("#password", password);
+
+        await this.page.click("#login");
+
+    }
+
+}
+*/
