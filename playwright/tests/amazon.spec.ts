@@ -14,4 +14,5 @@ test("Search product", async ({ page }) => {
         const productName = await products.nth(i).textContent();
         console.log(`${i + 1}. ${productName}`);
     }
+    await page.pause();
 });

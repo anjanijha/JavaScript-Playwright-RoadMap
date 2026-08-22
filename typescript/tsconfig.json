@@ -13,6 +13,6 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["Day*/**/*.ts", "ProblemSolving/**/*.ts"],
+  "include": ["Day*/**/*.ts", "ProblemSolving/**/*.ts", "ProblemSolving/2_ReverseEachWord"],
   "exclude": ["node_modules", "dist"]
 }

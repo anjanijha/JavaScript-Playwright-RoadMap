@@ -2,7 +2,6 @@ function ReverseStringPreserveSpacePosition (str : string):string{
         let i=0;
         let j=str.length-1;
         const chs= str.split("");
-        let revStr="";
         while(i<j){
             if(str[i]===" "){
                 i++;
