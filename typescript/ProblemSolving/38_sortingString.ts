@@ -1,4 +1,4 @@
-function sortingString(str: string): void {
+const str= "fedcba";
     const chars =str.split("");
     for(let i=0;i<chars.length;i++){
         for(let j=i+1;j<chars.length;j++){
@@ -10,5 +10,3 @@ function sortingString(str: string): void {
         }
     }
     console.log(`The sorted string : ${chars.join("")}`);
-}
-sortingString("fedcba");

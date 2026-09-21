@@ -1,4 +1,4 @@
-const str = "Anjani Kumar Anjani Jha Kumar Jha Jha Jha"
+const str = "Anjani Kumar Anjani Jha Kumar Jha Jha Jha";
 const words = str.split(" ");
 const map = new Map<string, number>();
 for (const word of words) {

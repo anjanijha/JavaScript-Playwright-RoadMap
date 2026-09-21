@@ -1,4 +1,4 @@
-let num = 10108
+let num = 10108;
 let flag: boolean = true;
 if (num === 0 || num === 1) {
     flag = false;

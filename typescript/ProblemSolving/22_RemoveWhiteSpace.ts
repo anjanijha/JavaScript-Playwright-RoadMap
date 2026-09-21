@@ -1,4 +1,4 @@
-const str = "An ja ni"
+const str = "An ja ni";
 let newStr = "";
 for (const ch of str) {
     if (ch !== ' ') {

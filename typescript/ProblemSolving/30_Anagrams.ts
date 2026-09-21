@@ -1,5 +1,5 @@
-const str1 = "Anjani"
-const str2 = "janiAn"
+const str1 = "Anjani";
+const str2 = "janiAn";
 if (sorting(str1) === sorting(str2)) {
     console.log("The given strings are anagram");
 } else {

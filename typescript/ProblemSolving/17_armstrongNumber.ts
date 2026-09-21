@@ -1,4 +1,4 @@
-let num = 1634
+let num = 1634;
 const org: number = num;
 const numLen = num.toString().length;
 let sum = 0;

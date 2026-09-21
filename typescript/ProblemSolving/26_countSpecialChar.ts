@@ -1,4 +1,4 @@
-const str = "Anjani@#$$#$#KumarJha"
+const str = "Anjani@#$$#$#KumarJha";
     let upper: number=0;
     let lower: number=0;
     let digit: number=0;

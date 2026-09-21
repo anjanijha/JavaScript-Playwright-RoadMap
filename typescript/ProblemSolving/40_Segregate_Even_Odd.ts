@@ -1,4 +1,4 @@
-function Segregate_Even_Odd(arr:number[]):void{
+const arr=[1,2,3,4,5,6,7,8];
     let i=0;
     let j=arr.length-1
     while(i<j){
@@ -17,5 +17,3 @@ function Segregate_Even_Odd(arr:number[]):void{
         }
     }
     console.log(`The new arr : ${arr}`);
-}
-Segregate_Even_Odd([1,2,3,4,5,6,7,8]);

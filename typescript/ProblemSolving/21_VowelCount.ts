@@ -1,10 +1,8 @@
-function VowelCount(str: string) :void{
-    let count=0;
-    for(const ch of str){
-        if(ch==='a'||ch==='e'||ch==='i'||ch==='o'||ch==='u'||ch==='A'||ch==='E'||ch==='I'||ch==='O'||ch==='U'){
-            count++;
-        }
+const str = "Anjani";
+let count = 0;
+for (const ch of str) {
+    if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u' || ch === 'A' || ch === 'E' || ch === 'I' || ch === 'O' || ch === 'U') {
+        count++;
     }
-    console.log(`The count of : ${count}`);
 }
-VowelCount("Anjani");
+console.log(`The count of : ${count}`);
