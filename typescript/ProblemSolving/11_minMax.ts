@@ -1,4 +1,4 @@
-function minMax(arr: number[]) :void{
+    const arr=[1,2,3,4,5,5,7]
     let max: number=arr[0];
     let min: number=arr[0];
     for(let i=0;i<arr.length;i++){
@@ -10,5 +10,3 @@ function minMax(arr: number[]) :void{
         }
     }
     console.log(`The Min is : ${min} and the max is : ${max}`);
-}
-minMax([1,2,3,4,5,5,7]);

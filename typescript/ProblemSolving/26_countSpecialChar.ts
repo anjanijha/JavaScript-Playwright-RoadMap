@@ -1,4 +1,4 @@
-function countSpecialChar(str: string) :void{
+const str = "Anjani@#$$#$#KumarJha"
     let upper: number=0;
     let lower: number=0;
     let digit: number=0;
@@ -15,5 +15,3 @@ function countSpecialChar(str: string) :void{
         
     }
     console.log(`The total special charater is : ${special}`)
-}
-countSpecialChar("Anjani@#$$#$#KumarJha");

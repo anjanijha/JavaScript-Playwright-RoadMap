@@ -1,10 +1,8 @@
-function isPrimeNumber(num: number) :boolean | undefined{
+let num=11
+let flag =true
     for(let i=2;i<num/2;i++){
         if(num%i==0){
-       return false;
+             flag= false;
         }
-    }
-    return true;
-}
-const isPrime= isPrimeNumber(10);
-console.log(`The number is prime : ${isPrime}`);
+    }   
+console.log(`The number is prime : ${flag}`);

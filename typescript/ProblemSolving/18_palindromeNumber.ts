@@ -1,4 +1,4 @@
-function palindromeNumber(num: number):void{
+let num=1234321
     const org : number=num;
     let sum=0;
     while(num>0){
@@ -9,5 +9,3 @@ function palindromeNumber(num: number):void{
         console.log(`${org} is an Palindrome Number `);
     else
         console.log(`${org} is not an Palindrome Number `);
-}
-palindromeNumber(1234321);

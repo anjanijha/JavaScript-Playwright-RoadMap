@@ -1,10 +1,8 @@
-function RemoveWhiteSpace(str: string) :void{
-    let newStr="";
-    for(const ch of str){
-        if(ch!==' '){
-            newStr=newStr+ch;
-        }
+const str = "An ja ni"
+let newStr = "";
+for (const ch of str) {
+    if (ch !== ' ') {
+        newStr = newStr + ch;
     }
-    console.log(`new String is : ${newStr}`);
 }
-RemoveWhiteSpace("Anj an i ");
+console.log(`new String is : ${newStr}`);

@@ -1,4 +1,4 @@
-function revserEachWord(str: string) :string{
+    let str="Anjani Kumar Jha"
     const words= str.split(" ");
     let revWords="";
     for(const word of words){
@@ -8,7 +8,4 @@ function revserEachWord(str: string) :string{
         }
       revWords=revWords+revWord +" ";
     }
-    return revWords;
-}
-let rev= revserEachWord("Anjani Kumar Jha");
-console.log(`The reverse of each word: ${rev}`);
+    console.log(`The reverse of each word in string : ${revWords}`);

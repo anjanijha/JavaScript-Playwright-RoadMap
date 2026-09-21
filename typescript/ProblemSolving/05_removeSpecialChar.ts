@@ -1,8 +1,4 @@
-
-function removeSpecialChar(str: string): string{
+let str="Anjan$%$%^i"
     const newStr=str.replace(/[^a-zA-Z0-9]/g, "");
-    return newStr;
-}
+    console.log(`The new String is  : ${newStr}`);
 
-let newStr= removeSpecialChar("Anjan$%$%^i");
-console.log(`The new String is  : ${newStr}`);
