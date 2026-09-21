@@ -8,7 +8,7 @@ for (const word of words) {
     revAlt = revAlt + word + " ";
 }
 console.log(`The Alternate reverse word is : ${revAlt}`);
-}
+
 function reverse(str: string): string {
     let rev = "";
     for (let i = str.length - 1; i >= 0; i--) {
