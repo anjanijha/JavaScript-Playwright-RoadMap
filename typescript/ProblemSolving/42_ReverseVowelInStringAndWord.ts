@@ -9,7 +9,7 @@ for(const word of words){
 }
 console.log(`The new String is : ${revVolInString}`);
 
-function revVol(str:string,i:number,j:number){
+function revVol(str:string,i:number,j:number) : string{
     const chs=str.split("")
     while(i<j){
         if(!isVolwel(chs[i])){
@@ -27,7 +27,7 @@ function revVol(str:string,i:number,j:number){
     return chs.join("");
 }
 
-function isVolwel(ch:any){
+function isVolwel(ch:string): boolean{
     return ch==='a'||ch==='e'||ch==='i'||ch==='o'||ch==='u'||
         ch==='A'||ch==='E'||ch==='I'||ch==='O'||ch==='U'  
 }
